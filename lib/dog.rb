@@ -2,14 +2,13 @@ class Dog
   
   @@all = []
   
-  def initialize 
+  def initialize (name)
 
     @@all << self 
   end
   
   def self.print_all 
-    @@all.each do |dog|
-      
+    @@all.map do |dog_names|
   end
   
   def self.all 
