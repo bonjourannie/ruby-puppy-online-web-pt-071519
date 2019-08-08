@@ -11,7 +11,7 @@ class Dog
   end
   
   def self.print_all 
-    puts @@all.map do |dog_names|
+    puts @@all.map{ |name| name.
       { |name| name.upcase }
   end
   end
