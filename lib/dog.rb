@@ -10,6 +10,7 @@ class Dog
   def self.print_all 
     @@all.map do |dog_names|
   end
+  end
   
   def self.all 
     @@all 
